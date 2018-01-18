@@ -16,7 +16,12 @@ import moe.fanalis.yuki.Yuki;
 public class Example{
     public static void main(String[] arg){
         Yuki yuuki = new Yuki();
-        yuuki.downloadLastEpisode("Shokugeki no Souma","output");
+        try{
+            yuuki.downloadLastEpisode("Shokugeki no Souma","output");    
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        
     }
 }
 ```

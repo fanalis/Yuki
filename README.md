@@ -1,1 +1,22 @@
 # Yuki
+
+Yuki is a manga downloader from mangastream.
+
+## Requirements
+- Jsoup
+- Javatuples
+Gradle will handle these for you.
+
+## Example usage
+
+```java
+import moe.fanalis.yuki.Yuki;
+
+public class Example{
+    public static void main(String[] arg){
+        Yuki yuuki = new Yuki();
+        yuuki.downloadLastEpisode("Shokugeki no Souma","output");
+    }
+}
+```
+That will create a folder in `./output/shokugeki_no_souma/last_episode_number/` and will download all images there.

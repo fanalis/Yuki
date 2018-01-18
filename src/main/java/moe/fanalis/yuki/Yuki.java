@@ -16,10 +16,10 @@ public class Yuki {
     private static final String MANGA_URL = "https://readms.net/manga/";
     private static final String BASE_URL = "https://readms.net";
 
-    /*
-    public static void main(String[] arg){
 
-    }*/
+    public static void main(String[] arg){
+        System.out.println("Yuki desu!");
+    }
 
     /**
      * Make a slug of the passed string

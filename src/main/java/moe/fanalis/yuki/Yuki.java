@@ -16,29 +16,10 @@ public class Yuki {
     private static final String MANGA_URL = "https://readms.net/manga/";
     private static final String BASE_URL = "https://readms.net";
 
+    /*
     public static void main(String[] arg){
-        String f = "Shokugeki No Souma";
-        f = f.replace(" ","_").toLowerCase();
 
-        try {
-            Yuki yuuki = new Yuki();/*
-            List<Pair<String,String>> episodes = yuuki.getMangaEpisodes(f);
-
-            //List<Pair<String,String>> episodes = yuuki.getMangaList();
-            for(Pair<String,String> episode: episodes){
-                System.out.println("Episode name: " + episode.getValue0());
-                System.out.println("url: " + episode.getValue1());
-            }*/
-            //String url = yuuki.getMangaPage("https://readms.net/r/shokugeki_no_souma/246/4822/1");
-            //System.out.println(url);
-            yuuki.downloadLastEpisode("Shokugeki no Souma","output");
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
-        //Boolean success = (new File("output/"+f)).mkdirs();
-        //File file = new File("output/"+f);
-        //System.out.println(file.exists() && file.isDirectory());
-    }
+    }*/
 
     /**
      * Make a slug of the passed string

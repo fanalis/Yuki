@@ -20,3 +20,9 @@ public class Example{
 }
 ```
 That will create a folder in `./output/shokugeki_no_souma/last_episode_number/` and will download all images there.
+
+## TODO
+- GUI
+
+## Advice
+This is a "for fun" project. I would recommend to read the manga from mangastream pages and/or buy it.

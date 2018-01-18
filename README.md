@@ -5,6 +5,7 @@ Yuki is a manga downloader from mangastream.
 ## Requirements
 - Jsoup
 - Javatuples
+ 
 Gradle will handle these for you.
 
 ## Example usage

@@ -156,7 +156,6 @@ public class Yuki {
                 saveImage(page,String.format("%s/%s/%s/0%d.%s",path,manga,episode,currentPageName,extension));
                 //Build the new url
                 url = String.join("/",splitted);
-                System.out.println("Url now is " + url);
                 currentPageName++;
             }
         }while(page != null);

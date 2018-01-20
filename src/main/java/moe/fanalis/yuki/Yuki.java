@@ -26,7 +26,7 @@ public class Yuki {
      * @param name
      * @return
      */
-    public static String sanitizeName(String name){
+    private static String sanitizeName(String name){
         name = name.replace(" ","_").toLowerCase();
         return name;
     }
@@ -57,7 +57,6 @@ public class Yuki {
      * Makes a request in the desired url and returns all url (and text) of the elements that match
      * the desired pattern.
      * @param url Url to make request
-     * @param startPattern Pattern to match in the <a> tag
      * @return List of content that match the pattern in that page
      * @throws IOException
      */
